@@ -1,11 +1,18 @@
 import React from 'react';
 
-import './App.css';
+import './App.scss';
+import AboutMe from './pages/AboutMe';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
 
 function App() {
     return (
         <div>
-            <h1>Hello World</h1>
+            <Home />
+            <AboutMe />
+            <Projects />
+            <Contact />
         </div>
     )
 };
