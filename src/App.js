@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+
+import './App.css';
 
 function App() {
     return (
         <div>
-            Hello World
+            <h1>Hello World</h1>
         </div>
     )
 };
