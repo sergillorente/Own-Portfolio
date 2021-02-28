@@ -1,15 +1,22 @@
+// VARIABLES
+
+$main-green: rgb(47, 203, 63);
+$cursor-color: rgb(180, 250, 187);
+
+
 body {
-    background-color: none;
+    background-color: rgb(250, 219, 164);
     font-family: 'Open Sans', sans-serif;
 }
 
-.cursor {
-    width: 20px;
-    height: auto;
-    border: 1px solid yellow;
-    border-radius: 50%;
-    position: absolute;
-}
+// .cursor {
+//     width: 25px;
+//     height: 25px;
+//     background-color: $cursor-color;
+//     border: 1px solid $cursor-color;
+//     border-radius: 50%;
+//     position: absolute;
+// }
 
 // ================
 //      HOME PAGE
@@ -22,18 +29,20 @@ body {
     justify-content: space-around;
     width: 35%;
     margin-left: 60%;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    // position: sticky;
+    // top: 0;
+    // z-index: 10;
 
     > li {
         border-bottom: 3px solid transparent;
         list-style-type: none;
+        transition-duration: 200ms;
+        transition-property: border-bottom;
     }
-    :hover > li {
+
+    &:hover > li {
         cursor: pointer;
-        border-bottom: 3px solid red;
-        transition: ease-in-out;
-        transition-duration: 300ms;
+        border-bottom: 3px solid $main-green;
     }
+
 }
