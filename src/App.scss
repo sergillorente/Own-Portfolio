@@ -2,3 +2,38 @@ body {
     background-color: none;
     font-family: 'Open Sans', sans-serif;
 }
+
+.cursor {
+    width: 20px;
+    height: auto;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    position: absolute;
+}
+
+// ================
+//      HOME PAGE
+// ================
+
+// NAVBAR
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-left: 60%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    > li {
+        border-bottom: 3px solid transparent;
+        list-style-type: none;
+    }
+    :hover > li {
+        cursor: pointer;
+        border-bottom: 3px solid red;
+        transition: ease-in-out;
+        transition-duration: 300ms;
+    }
+}
