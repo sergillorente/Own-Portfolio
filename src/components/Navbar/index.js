@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div>
-            <ul className="navbar">
+        <div className="navbar">
+            <ul className="menu">
                 <li>
                     About Me
                 </li>
