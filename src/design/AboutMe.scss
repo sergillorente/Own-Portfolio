@@ -1,0 +1,27 @@
+// TECH part of the ABOUTME page
+
+.tech {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+
+    > p {
+        font-size: 18px;
+    }
+}
+
+#highlight {
+    font-size: 22px;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    ul > li {
+        list-style-type: none;
+    }
+}
