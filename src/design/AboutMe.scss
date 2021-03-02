@@ -1,9 +1,14 @@
 // TECH part of the ABOUTME page
 
+.about {
+    background-color: rgb(208, 250, 164);
+}
+
 .tech {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3%;
+    margin-left: 6%;
     font-size: 22px;
 
     > p {

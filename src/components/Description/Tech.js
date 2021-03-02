@@ -4,7 +4,7 @@ const Tech = () => {
     return (
         <div className="tech">
             <article>
-                <div>A <b>Full Stack Developer</b></div>
+                <div><b>Full Stack Developer</b></div>
                 Recently joining the Tech community.
             </article>
             <article>

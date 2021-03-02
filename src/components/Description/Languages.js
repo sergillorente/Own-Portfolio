@@ -7,6 +7,7 @@ const Languages = () => {
             <ul>
                 <li>HTML5</li>
                 <li>CSS3</li>
+                <li>SASS</li>
                 <li>JavaScript</li>
                 <li>React.js</li>
                 <li>Node.js</li>
